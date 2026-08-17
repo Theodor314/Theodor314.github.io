@@ -6,26 +6,91 @@
     <title>about_me</title>
 </head>
 <body>
+	<style>
+			h1{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			}
+			h3{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border: 1px solid #ccc;
+			border-radius: 8px;
+			border-color:grey ;
+			}
+			a.Back{
+				
+			}
+			
+			* {
+      
+      box-sizing: border-box;
+    }
+
+    .container {
+      display: flex;
+      gap: 10px;
+	flex-wrap:wrap;
+      padding: 10px;
+	flex-direction:row;
+	justify-content: space-between;
+	justify-content: center;
+    }
+
+    .box1{
+      width: 180px;
+      height: 160px;
+      background-color: #0071ff;
+      font-size: 20px; 
+	text-align:top;
+	background-image:;
+	transition-timing-function: ease;
+	transition-duration: 1s;
+	}
+	a.cube{
+		font-size:30px;
+		text-decoration: none;    
+		color: blue;
+		}
+		
+	.box1:hover{
+
+		transform: rotate(45deg);
+	}
+
+	 .box {
+      width: 200px;
+      height: 180px;
+      background-color: #0071ff;
+      font-size: 20px; 
+	text-align:top;
+		
+
+	
+			
+		</style>
 	<h1> About Me</h1>
 	  <nav>
-		<a href="index.html">Back </a>
+		<a href="index.html" class="Back">Back </a>
 	</nav>
 	<h3>
 		Occuption 
 	</h3>
 	I am a 17 year old student (Gymnasium) living in Hamburg, Germany 
-	
 	<h3>
 		Hobbies
 	</h3>
-	Cubing
-	<br>
-	Badminton
-	<br>
-	Golf
-	<br>
-	Diamond Painting
-	
+	  <div class="container">
+    <div class="box1">
+
+		<nav>
+		<a href="cubing.html" class="cube">Cubing</a>
+		</nav>
+	<p class="cubing-desc"> Sub: 30 3x3</p>
+	</div>
+	</div>
 	<h3>
 		Interests
 	</h3>
